@@ -1,0 +1,364 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1400px) {
+	
+}
+@media only screen and (max-width : 1200px) {
+	.s1 .line {
+    bottom: -11%;
+}
+.s5 .arr {
+    right: -12%;
+}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.s7 .gallery{
+		width: 100%;
+	}
+	.s8 button{
+		margin-bottom: 30px;
+	}
+	.accordion{
+		width: 100%;
+	}
+	.s13 .content,.s3 .item,.s4 .content,.s4_2 .lbl{
+		width: 70%;
+	}
+	.middle {
+	    padding: 40px 15px;
+	    background: #000;
+	    color: #fff;
+	    margin: 20px 0;
+	}
+	.s9:after, .s9:before{
+		display: none;
+	}
+	.s9_2 p span{
+	  color: #FFAA29;
+	}
+	.s9_2 img {
+	   right: 5%;
+    	top: -10%;
+	}
+	.s9 img{
+		right: 10%;
+	}
+	.s6 .item{
+		margin-top: 20px;	
+	}
+	.s5 .count{
+		padding: 40px 0;
+	}
+	.s5 .num{
+		top: -25px;
+	}
+	.s5 .arr{
+		right: 0;
+	}
+	.s2 img{
+		margin-top: 20px;
+	}
+	.s1{
+		background-image: url('../media/s1_bg_mob.png');
+		background-repeat: no-repeat;
+		background-size: auto 80%;
+		background-position: top right;
+		background-color: #000;
+	}
+	.slick-prev,.slick-prev:hover, .slick-prev:focus{
+  left: 40%;
+}
+.slick-next,.slick-next:hover, .slick-next:focus{
+  right: 40%;
+}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.desk{
+		display: none !important;
+	}
+	.mob{
+		display: block !important;
+	}
+	h2 br{
+		display: none;
+	}
+	.s13 .content, .s3 .item, .s4 .content,.s9 p,.s4_2 .lbl{
+		width: 100%;
+	}
+	.s10 img{
+		width: 100% !important;
+	}
+	.s5 .count {
+	    padding: 40px 20px;
+	}
+	.s5 .num{
+		left: 0;
+	}
+	.s5 .arr {
+	    bottom: -30px;
+	}
+	.s8 .price{
+		font-size: 65px;
+	}
+	.s8 .old_price{
+		font-size: 30px;
+		margin-bottom: 25px;
+	}
+	.s9,.s9 h2,.s9 .main{
+		text-align: left;
+	}
+	.s13 h2{
+		width: 80%;
+	}
+
+}
+@media only screen and (max-width : 600px) {
+	.box-modal{
+		width: 100%;
+	}
+	#menu button{
+		width: 90%;
+	}
+	.box-modal_close{
+		color: #000;
+		right: 0;
+	}
+	.getting-started .dial,.s8 .timer h3,h2{
+		font-size: 25px;
+	}
+	.box-modal .getting-started .dial{
+		font-size: 18px;
+	}
+	.s12 h3{
+		font-size: 23px;
+	}
+	.s9_2 img{
+		top: -8%;
+	}
+	.s8 .old_price{
+		font-size: 24px;
+	}
+	.s1 .header{
+		font-size: 16px;
+	}
+	h1{
+		font-size: 28px;
+	}
+	h1 span{
+		font-size: 36px;
+	}
+	.s7 .gallery{
+		padding: 40px;
+    width: calc(100% + 30px);
+    margin-left: -15px;
+    border-radius: 0;
+	}
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.s1 button{
+		width: 100%;
+		padding: 15px 0;
+	}
+	h2, .s3 .item,.s5 .case{
+		text-align: left;
+	}
+	.s6 .bg{
+		padding: 40px;
+	}
+	.s8 button{
+		width: 100%;
+	}
+	.s8 .timer h3{
+		font-size: 19px;
+	}
+	.s8 .timer{
+		text-align: center;
+	}
+	.s8 .timer p{
+		text-align: left;
+	}
+	.s9_2{
+		padding-bottom: 0;
+	}
+	.s13 .header{
+		position: relative;
+	}
+	.s13 .header h2{
+		width: 100%;
+	}
+	.s13 .header img{
+		position: absolute;
+	    bottom: -80%;
+	    right: 5%;
+	    width: 10%;
+	}
+	body,.date,small{
+		font-size: 14px;
+	}
+	.s1 .header {
+    font-size: 14px;
+    border: 1px solid #FFFFFF;
+}
+.s1 .header span, button span,.s2 h2 span,.s2 .bg h3 span{
+	display: block;
+}
+.s1 .el{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+h1 span {
+    font-size: 29px;
+}
+h1{
+	font-size: 20px;
+}
+.s1{
+	padding: 100px 0 50px;
+}
+.s1 .title .dot{
+	opacity: .6;
+}
+.s1 .title .dot:nth-child(2) {
+    left: 200px;
+    top: 20px;
+}
+.s1 .title .dot:nth-child(3) {
+    left: 205px;
+    bottom: 20px;
+    box-shadow: 0px 0px 25px 22px #FFAA29;
+    opacity: 1;
+}
+.s1 .line {
+    bottom: -9%;
+}
+.s2 {
+    padding-top: 40px;
+}
+.s2 .bg h3{
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+h2{
+	font-size: 20px;
+}
+.s2 .bg h2{
+	font-size: 24px;
+}
+.s2 .bg{
+	padding: 20px 75px;
+}
+.s4 h2{
+	color: #000;
+}
+.s4 p:not(.s4 p:last-child){
+	margin-bottom: 15px;
+}
+.s5 .num{
+	font-size: 40px;
+	    left: 20px;
+    top: 0;
+}
+.s5 .count {
+    padding: 20px 35px 20px 40px;
+}
+.s5 .arr {
+    bottom: 5px;
+    width: 50px;
+}
+.s5 .case h3{
+	font-size: 16px;
+}
+.s6 {
+    background-size: 30%;
+    background-position: top 20% right -15%;
+}
+.s6 .bg{
+	background: url('../media/bg2.png') no-repeat;
+	background-size: 100% 100%;
+}
+small{
+	color: #4B4B4B;
+}
+.slick-prev, .slick-prev:hover, .slick-prev:focus {
+    left: 33%;
+}
+.slick-next, .slick-next:hover, .slick-next:focus {
+    right: 33%;
+}
+.s8 h2{
+	margin-bottom: 10px;
+}
+.s8 .price {
+    font-size: 47px;
+}
+.getting-started .dial{
+		padding: 10px 15px;
+	}
+	.getting-started>div{
+		margin-left: 30px;
+	}
+	.s9 h2 br{
+		display: block !important;
+	}
+	.s9 img {
+    top: -1%;
+    width: 17%;
+}
+.s9:not(.s9_2) .middle p span {
+    text-shadow: 1px 1px #FFAA29;
+}
+.s12 h3 {
+    font-size: 14px;
+}
+.s13{
+	padding-top: 0;
+}
+.s13 .header{
+	margin-bottom: 20px;
+}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 380px) {
+	
+}
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1920px) {
+
+}
